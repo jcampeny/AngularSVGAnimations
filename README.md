@@ -2,12 +2,8 @@
 
 ## What is this? ##
 
-This is a fork of the AngularProject repository to implement a slides website for presentations and storytelling websites
+AngularJS module that adds support for animate your svg files.
 
-Works with:
- - Bootstrap
- - FontAwesome
- - Sass
 
 ## How to install? ##
 
@@ -22,30 +18,25 @@ Install dependencies
 	bower install
 
 
-## How to run the webapp? ##
+## How to run the AngularSvgAnimation? ##
 
-Start Grunt for development
+Add the module to your Angular app (svgEkd). For example:
 
-	grunt dev
+	angular.module('app',['svgEkd']);
 
-
-## How to run the tests? ##
-
-	The tests run everytime a file is changed
+	configure templateUrl of the svgContainer directive.
 
 
-## How to run update webapp? ##
+## How to use? ##
 
-Install npm-check-updates
+Add this directive:
 
-	 npm install -g npm-check-updates
+	<svg-container name="svg_name_file" class="svg-test"></svg-container>
 
-Run the following command to update package.json file with new versions
+	The attribute name is the name of the svg file.
+	
+	Add 'position: absolute' to the directive.
 
-	npm-check-updates -u
+	Add svg.file in the same folder.
 
-Update modules:
-
-	npm install 
-
-
+to be continued...
