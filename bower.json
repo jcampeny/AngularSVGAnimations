@@ -1,0 +1,21 @@
+{
+  "name": "angular-svg-animation",
+  "authors": [
+    "ElkanoData"
+  ],
+  "description": "angular svg animation",
+  "main": "svgEkd.js",
+  "moduleType": [
+    "es6"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
